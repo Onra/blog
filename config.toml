@@ -1,6 +1,6 @@
 baseURL = "http://arnaudchrist.xyz/"
 languageCode = "en-us"
-title = "Arnaud Christ - Developer"
+title = "Arnaud Christ"
 theme = "hello-friend-ng"
 
 [permalinks]
@@ -11,7 +11,17 @@ theme = "hello-friend-ng"
 
 [params]
 
-# Social icons
+  [params.portrait]
+     path     = "/img/profile_picture.jpeg"
+     alt      = "Portrait"
+     maxWidth = "200px"
+
+  [params.logo]
+    logoMark     = ">"
+    logoText     = "$ cd ~/dev"
+    logoHomeLink = "/"
+
+  # Social icons
   [[params.social]]
     name = "twitter"
     url  = "https://twitter.com/arn_aud"

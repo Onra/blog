@@ -2,3 +2,28 @@ baseURL = "http://arnaudchrist.xyz/"
 languageCode = "en-us"
 title = "Arnaud Christ - Developer"
 theme = "hello-friend-ng"
+
+[permalinks]
+  posts = "/posts/:year/:month/:title/"
+
+[author]
+  name = "Arnaud Christ"
+
+[params]
+
+# Social icons
+  [[params.social]]
+    name = "twitter"
+    url  = "https://twitter.com/arn_aud"
+
+  [[params.social]]
+    name = "email"
+    url  = "mailto:arnaud.christ+blog@gmail.com"
+
+  [[params.social]]
+    name = "github"
+    url  = "https://github.com/Onra"
+
+  [[params.social]]
+    name = "linkedin"
+    url  = "https://www.linkedin.com/in/christarnaud/"
